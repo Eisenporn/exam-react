@@ -5,12 +5,12 @@ function Root() {
   return (
     <>
       <header>
-        <h2>Шапка</h2>
+        <a href=""><h2>Flowers Store</h2></a>
       </header>
       <Outlet />
-      <footer>
+      {/* <footer>
         <h2>Подвал</h2>
-      </footer>
+      </footer> */}
     </>
   );
 }
